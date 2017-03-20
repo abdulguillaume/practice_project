@@ -4,6 +4,7 @@
   <title>Home Page</title>
 </head>
 <body>
+  <div>
 <ul>shopping list items
   <li>banana</li>
   <li>avocado</li>
@@ -12,5 +13,19 @@
   <li>ginger</li>
   <li>coffee</li>
 </ul>
+</div>
+<style>
+body {
+   text-align: center;
+   color: black;
+}
+ul li:nth-child(2n+1)
+{
+  background-color: rgba(0, 2, 0, .2);
+}
+div {
+  background-image: url("supermarket.jpeg");
+}
+</style>
 </body>
 </html>
